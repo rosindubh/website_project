@@ -14,7 +14,7 @@
 (3) The <Github Setup> link at the top of the homepage will open a new page
     in the same window, giving instructions how to install Git on a Linux system.
 
-(4) The useful Links link will open an old webpage I have from 2015 that is running
+(4) The useful Links link will open an old webpage I have from 2017 that is running
     on my Rasperry Pi 
 
 (5) In section 1.3 of the Homepage there is a link to Team4s trello board.
