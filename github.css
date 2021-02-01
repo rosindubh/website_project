@@ -1,0 +1,209 @@
+/*set background colour*/
+
+* {
+    background-color: #ccffff;
+    font-size:  25px;
+}
+
+/*causes a cure around images*/
+img {
+  border-radius: 60px;
+}
+
+/*set size and color of h1 headings*/
+h1 {
+  color: #ff3333;
+  text-align: center;
+  font-size: 30px;
+}
+
+/*set size and color for h4 headings*/
+h4  {
+    text-align: center;
+    color: #400080 
+}
+
+/*wrap long words so they don't finish badly at end of page*/
+ div {
+  word-wrap: break-word;
+}
+
+
+/* set image to center of page*/
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+
+/*set image size
+img  {
+    width: 20%;
+}*/
+
+
+/*what does this do?*/
+
+/*CSS Create Multiple Columns*/
+
+/*specify column count
+div {
+  column-count: 1;
+}*/
+
+/*specify gap between columns
+div {
+  column-gap: 40px;
+}*/
+
+
+/*CSS Column Rules
+div {
+  column-rule-style: solid;
+}*/
+
+/*specify the column width
+div {
+  column-width: 200px;
+}*/
+
+
+
+/*paragraph width auto set
+p {
+  border-bottom:1px dotted;
+  margin-left:  150px;
+  margin-right: 150px;
+  text-align:center;
+  font-size:  30px;
+}*/
+
+/*from stackoverflow
+p { display: inline-block; 
+    color: #000000;}*/
+
+/*from w3schools
+div {
+  width: 2800px; 
+  border: 1px solid #000000;
+}*/
+
+
+/*div{
+width: 2500px;
+margin: 20px;
+background: palegoldenrod;
+border: 5px dotted lightskyblue;
+box-shadow: inset 10px 10px 15px 15px white;
+font-style: italic;
+overflow-wrap:normal;
+}*/
+
+*add margin
+.center  {
+   margin: auto;
+   background: lime;
+   width:  30%;
+}*/
+
+.outside  {
+    margin:  3rem  0  0  -3  rem;
+    background:  cyan;
+    width:  66%;
+}
+
+
+
+/*Advise from Liam to add padding and margin*/
+
+/*add padding*/
+h1 {
+  padding: 5px 30px;
+}
+
+h2  {
+     padding:   5px  5px  5px  5px
+     font-size: 30px;
+     color: blue;
+}
+
+h3  { font-size: 30px;
+     
+   }
+
+
+
+/*create a border around  div */
+div  {
+     padding:  50px;
+     border:   5px solid #0033cc
+
+}
+
+
+/*add padding to lists*/
+ul  { padding:   50px;
+}
+
+
+/*flexbox*/
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+*  {
+     box-sizing: border-box;
+}
+
+
+.box  {
+    text-align:  center;
+    
+}
+
+h1 {
+  font-family: 'Tangerine', serif;
+  font-size: 38px;
+  text-shadow: 6px 6px 6px #aaa;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:900');
+
+* {
+    box-sizing: border-box;
+}
+
+.container2 {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.container3  {
+    display: flex;
+/*    min-height: 100vh;*/
+    flex-direction: row;
+    
+}
+
+
+.box {
+    color: #000000	;
+    font-size: 25px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    padding:    50px;
+    
+ /*  width: 2500px;    */
+    
+}
+
+/* Colours for each box */
+.box1 { background: #ff9933; }
+.box2 { background: #ff5050; }
+.box3 { background: #99ff99; }
+.box4 { background: #ffdb4d; }
