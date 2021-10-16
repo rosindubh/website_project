@@ -6,10 +6,25 @@ body {
     background-attachment: fixed;
 }
 
+.home-btn {
+	margin-left: 40px;
+}
 
+.dev {
+	margin-left: 40px;
+}
 
+.master-heading {
+	margin-left: 40px;
+}
 
+.master-para {
+	margin-left: 40px;
+}
 
+a {
+	display: flex;
+}
 
 
 /*body {
