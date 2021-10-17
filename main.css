@@ -6,6 +6,10 @@ body {
     background-attachment: fixed;
 }
 
+button {
+	border-radius: 5px;
+}
+
 .home-btn {
 	margin-left: 40px;
 }
@@ -24,9 +28,13 @@ body {
 
 a {
 	display: flex;
+	/* text-decoration: none; */
 }
 
-
+.links a {
+	text-decoration: none;
+	margin-left: 40px	;
+}
 /*body {
 	margin:0px;
 	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
