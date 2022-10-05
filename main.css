@@ -7,6 +7,14 @@ body {
     background-attachment: fixed;
 }
 
+#heading {
+	color: #FFFFFF;
+}
+
+h2 {
+	color: #FFFFFF;
+}
+
 button {
 	border-radius: 5px;
 }
@@ -16,6 +24,7 @@ button {
 }
 
 .dev {
+	color: white;
 	margin-left: 40px;
 }
 
@@ -24,6 +33,7 @@ button {
 }
 
 .master-para {
+	color: #FFFFFF;
 	margin-left: 40px;
 }
 
@@ -33,6 +43,7 @@ a {
 }
 
 .links a {
+	color: #FFFFFF;
 	text-decoration: none;
 	margin-left: 40px	;
 }
