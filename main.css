@@ -8,11 +8,11 @@ body {
 }
 
 #heading {
-	color: #FFFFFF;
+	color: #000000;
 }
 
 h2 {
-	color: #FFFFFF;
+	color: #000000;
 }
 
 button {
@@ -24,7 +24,7 @@ button {
 }
 
 .dev {
-	color: white;
+	color: black;
 	margin-left: 40px;
 }
 
